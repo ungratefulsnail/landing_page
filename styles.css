@@ -110,3 +110,43 @@ button.start {
     cursor: pointer;
 }
 
+/* Content */
+
+.content .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: auto;
+}
+
+.header2 {
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 170px;
+}
+
+
+.box img {
+    width: 130px;
+    height: auto;
+    border: 4px solid rgb(93, 141, 163);
+    border-radius: 5px;
+}
+
+.box p {
+    font-size: 12px;
+}
+
+
+
