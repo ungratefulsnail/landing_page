@@ -184,6 +184,7 @@ button.start {
 
 .footer {
     display: flex;
+    flex-direction: column;
     width: auto;
     height: 300px;
     align-items: center;
@@ -196,8 +197,10 @@ button.start {
     height: 200px;
     padding: 40px;
     font-weight: 500;
+    font-size: 17px;
     border-radius: 10px;
     line-height: 2;
+    margin-top: 40px;
 }
 
 button.signup {
@@ -210,4 +213,13 @@ button.signup {
     width: 120px;
     cursor: pointer;
     margin: 20px;
+}
+
+.lastitem {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
 }
